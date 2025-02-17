@@ -95,7 +95,7 @@ export const workData = [
   {
     title: 'UI/UX designing',
     description: 'UI/UX Design',
-    bgImage: '/work-4.png',
+    bgImage: 'work-4.png',
   },
 ];
 
