@@ -109,7 +109,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           dark:bg-darkhover dark:text-white"
         >
           <div className="absolute top-6 right-6" onClick={closeSideMenu}>
-            <Image src={isDarkMode ? assets.close_white : assets.close_black} alt="" className="w-5 cursor-pointer" />
+            <Image
+              src={isDarkMode ? assets.close_white : assets.close_black}
+              alt=""
+              className="w-5 cursor-pointer"
+            />
           </div>
 
           <li>
