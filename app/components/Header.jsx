@@ -29,7 +29,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        full stack developer based in Biarritz
+        full stack developer based in Biarritz & Paris
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -38,8 +38,7 @@ const Header = () => {
         className="max-w-2xl mx-auto font-Ovo"
       >
         {' '}
-        I am a frontend developer from California, USA with 10 years of experience in multiple
-        companies like Microsoft, Tesla and Apple.
+        Expertise in JavaScript, React, Node.js, Vue.js, Next.js. After transitioning from a 15+ year aviation career, I've built multiple web applications that showcase my passion for creating intuitive user experiences. I combine technical skills with strong leadership and problem-solving abilities.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

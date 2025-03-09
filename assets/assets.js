@@ -78,38 +78,46 @@ export const assets = {
 
 export const workData = [
   {
-    title: 'Frontend project',
-    description: 'Web Design',
+    title: 'Senior Love',
+    description: 'Full stack web app to promote social interaction for seniors',
+    techStack: 'TypeScript, React, Postgres, Sequelize',
     bgImage: '/work-1.png',
+    link: '/project/senior-love',
   },
   {
-    title: 'Geo based app',
-    description: 'Mobile App',
+    title: 'Oxxy Fitness',
+    description: 'Full stack web app for an australian fitness club',
+    techStack: 'TypeScript, Next.js, TailwindCSS',
     bgImage: '/work-2.png',
+    link: 'https://ozzy-fitness-lime.vercel.app/',
   },
   {
-    title: 'Photography site',
-    description: 'Web Design',
+    title: 'Netfix clone',
+    description: 'A Netflix clone built to familiarize with Vue.js',
+    techStack: 'TypeScript, Vue.js, Vite',
     bgImage: '/work-3.png',
+    link: 'https://sll0yd.github.io/netflix-clone-vuejs',
   },
   {
-    title: 'UI/UX designing',
-    description: 'UI/UX Design',
+    title: 'E-commerce',
+    description: 'React & Next.js',
+    techStack: 'JavaScript, Redux, TailwindCSS',
     bgImage: 'work-4.png',
+    link: '/project/senior-love',
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: 'Web design',
-    description: 'Web development is the process of building, programming...',
+    title: 'Front-End Development',
+    description: 'Creating responsive, interactive user interfaces to deliver exceptional user experiences...',
     link: '',
   },
   {
     icon: assets.mobile_icon,
-    title: 'Mobile app',
-    description: 'Mobile app development involves creating software for mobile devices...',
+    title: 'Back-End Development',
+    description: 'Building robust backend solutions to support your web applications...',
     link: '',
   },
   {
@@ -120,8 +128,8 @@ export const serviceData = [
   },
   {
     icon: assets.graphics_icon,
-    title: 'Graphics design',
-    description: 'Creative design solutions to enhance visual communication...',
+    title: 'Full Stack Solutions',
+    description: 'Delivering end-to-end web applications by seamlessly integrating solutions for effcient development...',
     link: '',
   },
 ];
@@ -131,19 +139,19 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: 'Languages',
-    description: 'HTML, CSS, JavaScript React Js, Next Js',
+    description: 'JavaScript & TypeScript, React.js, Next.js, Vue.jss, Node.js, Postgres, Prisma, Sequelize, TailwindCSS, ...',
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: 'B.Tech in Computer Science',
+    description: 'Professional Title - Web and Web Mobile Developer - BAC+2',
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: 'Projects',
-    description: 'Built more than 5 projects',
+    description: 'Built few projects, see below for more details',
   },
 ];
 
